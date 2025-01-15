@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meteor shower tracker</title>
+</head>
+<body>
+
+    <div class="upload-container">
+        <label for="file-upload" class="custom-file-upload">
+          <i class="fas fa-cloud-upload-alt"></i> Upload File
+        </label>
+        <input id="file-upload" type="file" accept=".csv"/>
+
+      </div>
+
+    <table id="zeroCount">
+        <h2>Longest time without meteors</h2>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Maximum Days without Meteors</th>
+                <th>Time interval</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
